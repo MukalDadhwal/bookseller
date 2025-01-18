@@ -1,2 +1,76 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node.js modules
 node_modules/
-.vercel
+node_modules/**
+
+# Compiled binary addons (e.g., in case of native modules)
+*.node
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Environment files
+.env
+.env.test
+.env.production
+.env.*
+
+# Build outputs
+dist/
+build/
+out/
+.cache/
+.tmp/
+
+# Static Bundlers
+*.cache
+*.parcel-cache
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+._*
+
+# Git-related files
+.git/
+*.lock
+
+# Testing files
+test-results/
+
+# Optional npm files
+package-lock.json
+yarn.lock
+
+# Additional files (optional)
+*.bak
+*.orig

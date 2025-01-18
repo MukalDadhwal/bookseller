@@ -68,7 +68,6 @@ Thumbs.db
 test-results/
 
 # Optional npm files
-package-lock.json
 yarn.lock
 
 # Additional files (optional)

@@ -41,6 +41,7 @@ jobs:
         env:
           RENDER_WEBHOOK: ${{ secrets.RENDER_WEBHOOK }}
         run: |
-          curl -X POST -d $RENDER_WEBHOOK \
+          curl -X POST \
           -H "Content-Type: application/json" \
-          -d '{"event": "deploy this code"}'
+          -d '{"event": "deploy this code"}' \
+          $RENDER_WEBHOOK

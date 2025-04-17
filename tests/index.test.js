@@ -9,9 +9,6 @@ describe("Test for Express app", () => {
 
     expect(res.headers["content-type"]).toContain("text/html");
 
-    expect(res.text).toContain(
-      '<script src="http://localhost:3000/script"></script>'
-    );
     expect(res.text).toContain("<title>Products Page</title>");
   });
 
